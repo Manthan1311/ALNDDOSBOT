@@ -102,7 +102,7 @@ def add_user(message):
         else:
             response = "Id bhejo kise add karna he \nlike this👇\n/add 000000000."
     else:
-        response = "🫵Sorry Bhai Aap Ye Wala Button \n ✋Use Nhi Kar Sakte \nYe Command Sirf he 3 Bande Hi Use Kar Sakte Hn\n@AYANCHEATS_OWNER\n@TOP_P4P_MANAGER0\n@FREE_SRC_OWNER"
+        response = "🫵Sorry Bhai Aap Ye Wala Button \n ✋Use Nhi Kar Sakte \nYe Command Sirf he 3 Bande Hi Use Kar Sakte Hn\n@issstarlomrd\n@EMPIRE_REFLEX\n@PASHA2OP"
 
     bot.reply_to(message, response)
 
@@ -127,7 +127,7 @@ def remove_user(message):
             response = '''Please Specify A User ID to Remove. 
 ✅ Usage: /remove <userid>'''
     else:
-        response = "🫵Sorry Bhai Aap Ye Wala Button \n ✋Use Nhi Kar Sakte \nYe Command Sirf he 3 Bande Hi Use Kar Sakte Hn\n@AYANCHEATS_OWNER\n@TOP_P4P_MANAGER0\n@FREE_SRC_OWNER"
+        response = "🫵Sorry Bhai Aap Ye Wala Button \n ✋Use Nhi Kar Sakte \nYe Command Sirf he 3 Bande Hi Use Kar Sakte Hn\n@issstarlomrd\n@EMPIRE_REFLEX\n@PASHA2OP"
 
     bot.reply_to(message, response)
 
@@ -147,7 +147,7 @@ def clear_logs_command(message):
         except FileNotFoundError:
             response = "Logs are already cleared ❌."
     else:
-        response = "🫵Sorry Bhai Aap Ye Wala Button \n ✋Use Nhi Kar Sakte \nYe Command Sirf he 3 Bande Hi Use Kar Sakte Hn\n@AYANCHEATS_OWNER\n@TOP_P4P_MANAGER0\n@FREE_SRC_OWNER"
+        response = "🫵Sorry Bhai Aap Ye Wala Button \n ✋Use Nhi Kar Sakte \nYe Command Sirf he 3 Bande Hi Use Kar Sakte Hn\n@issstarlomrd\n@EMPIRE_REFLEX\n@PASHA2OP"
     bot.reply_to(message, response)
 
  
@@ -173,7 +173,7 @@ def show_all_users(message):
         except FileNotFoundError:
             response = "No data found ❌"
     else:
-        response = "🫵Sorry Bhai Aap Ye Wala Button \n ✋Use Nhi Kar Sakte \nYe Command Sirf he 3 Bande Hi Use Kar Sakte Hn\n@AYANCHEATS_OWNER\n@TOP_P4P_MANAGER0\n@FREE_SRC_OWNER"
+        response = "🫵Sorry Bhai Aap Ye Wala Button \n ✋Use Nhi Kar Sakte \nYe Command Sirf he 3 Bande Hi Use Kar Sakte Hn\n@issstarlomrd\n@EMPIRE_REFLEX\n@PASHA2OP"
     bot.reply_to(message, response)
 
 
@@ -192,7 +192,7 @@ def show_recent_logs(message):
             response = "No data found ❌"
             bot.reply_to(message, response)
     else:
-        response = "🫵Sorry Bhai Aap Ye Wala Button \n ✋Use Nhi Kar Sakte \nYe Command Sirf he 3 Bande Hi Use Kar Sakte Hn\n@AYANCHEATS_OWNER\n@TOP_P4P_MANAGER0\n@FREE_SRC_OWNER"
+        response = "🫵Sorry Bhai Aap Ye Wala Button \n ✋Use Nhi Kar Sakte \nYe Command Sirf he 3 Bande Hi Use Kar Sakte Hn\n@issstarlomrd\n@EMPIRE_REFLEX\n@PASHA2OP"
         bot.reply_to(message, response)
 
 
@@ -247,7 +247,7 @@ def handle_bgmi(message):
         else:
             response = "✅ Usage :- /bgmi <target> <port> <time>"  # Updated command syntax
     else:
-        response = "🫵Sorry Bhai Aap Ye Wala Button \n ✋Use Nhi Kar Sakte \nPehle AYAN SE BAAR KRO\n@AYAN_CHEATS_OWNER."
+        response = "🫵Sorry Bhai Aap Ye Wala Button \n ✋Use Nhi Kar Sakte \nPehle starlord SE BAAR KRO\n@issstarlomrd."
 
     bot.reply_to(message, response)
 
@@ -269,7 +269,7 @@ def show_command_logs(message):
         except FileNotFoundError:
             response = "No command logs found."
     else:
-        response = "🫵Sorry Bhai Aap Ye Wala Button \n ✋Use Nhi Kar Sakte \nYe Command Sirf he 3 Bande Hi Use Kar Sakte Hn\n@AYANCHEATS_OWNER\n@TOP_P4P_MANAGER0\n@FREE_SRC_OWNER"
+        response = "🫵Sorry Bhai Aap Ye Wala Button \n ✋Use Nhi Kar Sakte \nYe Command Sirf he 3 Bande Hi Use Kar Sakte Hn\n@issstarlomrd\n@EMPIRE_REFLEX\n@PASHA2OP"
 
     bot.reply_to(message, response)
 
@@ -357,7 +357,7 @@ def broadcast_message(message):
     if user_id in admin_id:
         command = message.text.split(maxsplit=1)
         if len(command) > 1:
-            message_to_broadcast = "AYAN BHAI NE COMMAND DIYA HE KE YE AAP TAB BHEJU👇:\n\n" + command[1]
+            message_to_broadcast = "starlord BHAI NE COMMAND DIYA HE KE YE AAP TAB BHEJU👇:\n\n" + command[1]
             with open(USER_FILE, "r") as file:
                 user_ids = file.read().splitlines()
                 for user_id in user_ids:
@@ -369,7 +369,7 @@ def broadcast_message(message):
         else:
             response = "🤖 Please Provide A Message To Broadcast."
     else:
-        response = "🫵Sorry Bhai Aap Ye Wala Button \n ✋Use Nhi Kar Sakte \nYe Command Sirf he 3 Bande Hi Use Kar Sakte Hn\n@AYANCHEATS_OWNER\n@TOP_P4P_MANAGER0\n@FREE_SRC_OWNER"
+        response = "🫵Sorry Bhai Aap Ye Wala Button \n ✋Use Nhi Kar Sakte \nYe Command Sirf he 3 Bande Hi Use Kar Sakte Hn\n@issstarlomrd\n@EMPIRE_REFLEX\n@PASHA2OP"
 
     bot.reply_to(message, response)
 
